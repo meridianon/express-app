@@ -1,0 +1,22 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "lerning express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meridianon/express.git"
+  },
+  "author": "meridianon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meridianon/express/issues"
+  },
+  "homepage": "https://github.com/meridianon/express#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
