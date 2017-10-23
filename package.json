@@ -1,22 +1,16 @@
 {
-  "name": "express-tutorial",
-  "version": "1.0.0",
-  "description": "lerning express",
-  "main": "app.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meridianon/express.git"
-  },
-  "author": "meridianon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/meridianon/express/issues"
-  },
-  "homepage": "https://github.com/meridianon/express#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "3.0.x",
+    "jade": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
